@@ -1,0 +1,67 @@
+#introSection{
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+#introContainer{
+    position: relative;
+    height: 100vh;
+    padding: 0 100px;
+    gap: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.introDiv{
+    width: 45%;
+}
+#upperRound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  position: absolute;
+    height: 300px;
+    top: 0;
+    width: 700px;
+    background: linear-gradient(45deg,rgb(158, 3, 132) , rgb(158, 3, 132),rgb(158, 3, 132), rgb(0, 4, 128));
+    border-bottom-left-radius: 100%;
+    right: 0;
+    z-index: 2;
+
+}
+#bottomRoundContainer{
+    position: relative;
+  position: absolute;
+    height: 100px;
+    bottom: 0;
+    width: 700px;
+    right: 0;
+    overflow: hidden;
+
+}
+#bottomRound{
+    height: 212px;
+    width: 700px;
+    right: 0;
+    background: linear-gradient(120deg,rgb(158, 3, 132) , rgb(158, 3, 132),rgb(158, 3, 132), rgb(0, 4, 128));
+
+ border-radius: 50%;
+    z-index: 2;
+
+}
+#introImg{
+    position: relative;
+    border-radius: 50%;
+    height: 370px;
+    width: 370px;
+    object-fit: cover;
+    object-position: center;
+z-index: 0;
+}
+#transition-container {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+    opacity: 0;
+}

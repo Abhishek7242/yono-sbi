@@ -1,0 +1,28 @@
+      svg{
+        height: 20px;
+      }
+      @media screen and (max-width: 780px) {
+  
+         .container{
+
+   }
+     
+        th, td {
+          font-size: 12px;
+        
+        }
+}
+      @media screen and (max-width: 520px) {
+  
+         .container{
+
+   }
+   
+        th, td {
+          font-size: 8px;
+          /* word-wrap:break-word ; */
+        
+          word-break: initial;
+  
+        }
+}

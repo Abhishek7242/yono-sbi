@@ -1,0 +1,18 @@
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+</script>
+<script src="https://kit.fontawesome.com/8e5023dc6e.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+<script src="{{ url('js/header.js') }}"></script>
+<script src="{{ url('js/formShow.js') }}"></script>
+<script src="{{ url('js/formSubmit.js') }}"></script>
+
+
+
+</body>
+
+</html>
